@@ -79,5 +79,3 @@ INNER JOIN Transactions AS t
 ## Итоговый путь запроса
 
 **Security Analyst → Browser (Frontend) → HTTP/HTTPS → ASP.NET Core MVC → Authorization/RBAC → SuspiciousCasesController → Service → Data Access (ADO.NET) → MySQL → Backend → HTML-ответ → Browser**
-
-Этот сценарий показывает полный путь запроса через уровень представления, уровень приложения и уровень хранения данных. Он соответствует архитектуре системы с серверной генерацией страниц Razor Views и не требует отдельного React-приложения или JSON API.
